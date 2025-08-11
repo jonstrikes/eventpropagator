@@ -15,12 +15,14 @@ aiohttp = "^3.9.0"
 pydantic = "^2.5.0"
 pyyaml = "^6.0.1"
 asyncio = "^4.0.0"
+aioresponses = "^0.7.8"
 
 [tool.poetry.scripts]
 propagator = "eventpropagator:main"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"
+pytest-asyncio = "^0.21.1"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
