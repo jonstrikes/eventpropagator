@@ -38,5 +38,9 @@
   {
     "event_type": "user_left",
     "event_payload": "Thomas"
+  },
+  {
+    "event_type":123,
+    "event_payload":{}
   }
 ]
